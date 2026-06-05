@@ -1,0 +1,27 @@
+/* SearchBox.css */
+.SearchBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+
+.search {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+/* Global reset (you can place this in a global CSS file or at the top of your CSS) */
+html,
+body {
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+}
